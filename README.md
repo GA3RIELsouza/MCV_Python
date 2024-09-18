@@ -36,12 +36,6 @@ Cria uma nova instância do modelo Task.
 Adiciona a tarefa à lista de tarefas.
 Redireciona o usuário de volta para a visão principal.
 
--   Recursos: Tudo o que pode ser manipulado pela API é um recurso. Por exemplo, em um e-commerce, os produtos são recursos.<br>
--   Verbos HTTP: A API usa verbos como GET (pegar), POST (criar), PUT (atualizar) e DELETE (deletar) para realizar ações nesses recursos.<br>
--   Endpoints: Cada recurso tem um endereço único (endpoint). Para buscar um produto específico, você faz uma requisição GET para o endpoint desse produto.<br>
--   Formato de dados: A informação é trocada em um formato padrão, como JSON ou XML.<br>
--   Stateless: Cada requisição é independente, a API não "lembra" o que aconteceu antes.<br>
-
 # **REST:** (Gabriel)<br>
 ***O que é:***<br>
    A API RESTful é uma interface que dois sistemas de computador usam para trocar<br>
@@ -53,6 +47,23 @@ Redireciona o usuário de volta para a visão principal.
    As APIs RESTful suportam essa troca de informações porque seguem padrões de comunicação<br>
    de software seguros, confiáveis e eficientes.<br>
     <br>
+    ***Como funciona:***<br>
+   A função básica de uma API RESTful é a mesma de navegar na internet. O cliente entra em<br>
+   contato com o servidor usando a API quando requer um recurso. Os desenvolvedores de API<br>
+   explicam como o cliente deve usar API REST na documentação da API da aplicação do servidor.<br>
+   Estas são as etapas gerais para qualquer chamada de API REST:<br>
+    <br>
+      1. O cliente envia uma solicitação ao servidor.<br>
+       O cliente segue a documentação da API para formatar<br>
+       a solicitação de modo que o servidor entenda.<br>
+      2. O servidor autentica o cliente e confirma que o cliente
+       tem o direito de fazer essa solicitação.<br>
+      3. O servidor recebe a solicitação e a processa internamente.<br>
+      4. O servidor retorna uma resposta ao cliente. A resposta contém<br>
+       informações que indicam ao cliente se a solicitação foi bem-sucedida.<br>
+       A resposta também inclui informações solicitadas pelo cliente.<br>
+    <br>
+   Os detalhes de solicitação e resposta da API REST variam um pouco, dependendo de como os desenvolvedores da API projetam a API.
 ***APIs REST para Python:***<br>
    1. Flask<br>
    2. FastAPI<br>
