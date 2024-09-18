@@ -18,7 +18,7 @@ Controller:
 &nbsp;&nbsp;&nbsp;de um restaurante: você escolhe o que deseja (um recurso), e o restaurante<br>
 &nbsp;&nbsp;&nbsp;(a API) prepara e entrega o pedido (a resposta).<br>
     <br>
-***Como funciona:****<br>
+***Como funciona:***<br>
 &nbsp;&nbsp;&nbsp;Uma API REST é como uma ponte que conecta diferentes sistemas, permitindo<br>
 &nbsp;&nbsp;&nbsp;que eles se comuniquem e troquem informações. Imagine como se fosse um menu<br>
 &nbsp;&nbsp;&nbsp;de um restaurante: você escolhe o que quer (um recurso), e o restaurante (a API)<br>
