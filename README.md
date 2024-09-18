@@ -10,7 +10,7 @@ View: Anna
 Controller:
 **O que é: ** **Como funciona: **
 
-**REST:** (Gabriel)<br>
+# **REST:** (Gabriel)<br>
 ***O que é:***<br>
 &nbsp;&nbsp;&nbsp;Uma API REST (Representational State Transfer) é como uma interface<br>
 &nbsp;&nbsp;&nbsp;que permite que diferentes sistemas se comuniquem entre si, trocando<br>
