@@ -8,7 +8,33 @@ View: Anna
 **O que é: ** **Como funciona: **
 
 Controller:
-**O que é: ** **Como funciona: **
+O Controller (Controlador) é uma parte fundamental do padrão MVC (Model-View-Controller) em aplicações web e é responsável por gerenciar a lógica de interação entre o usuário,
+a visão e o modelo. Aqui está uma explicação detalhada sobre o Controller em Python, com ênfase em frameworks populares como Flask e Django.
+
+Funções do Controller
+
+Receber Entradas do Usuário:
+O controlador captura as ações do usuário, como cliques em botões ou envios de formulários. Em aplicações web, isso geralmente ocorre por meio de requisições HTTP.
+
+Processar Lógica:
+Após capturar a entrada, o controlador executa a lógica necessária. Isso pode incluir validação de dados, processamento de informações ou decisões sobre o fluxo da aplicação.
+
+Interagir com o Modelo:
+O controlador chama métodos do modelo para recuperar ou modificar dados. Isso pode envolver consultas a bancos de dados ou manipulações de dados existentes.
+
+Selecionar a Visão:
+Depois de processar a entrada e interagir com o modelo, o controlador determina qual visão deve ser renderizada e retorna essa visão ao usuário.
+
+Exemplo em Flask:
+Rota /:
+O método index() é um controlador que renderiza a visão com a lista de tarefas. Ele utiliza a função render_template() para enviar os dados da lista de tarefas para o template HTML.
+
+Rota /add:
+O método add_task() é um controlador que processa o envio do formulário para adicionar uma nova tarefa, ele:
+Captura o nome da tarefa do request.form.
+Cria uma nova instância do modelo Task.
+Adiciona a tarefa à lista de tarefas.
+Redireciona o usuário de volta para a visão principal.
 
 -   Recursos: Tudo o que pode ser manipulado pela API é um recurso. Por exemplo, em um e-commerce, os produtos são recursos.<br>
 -   Verbos HTTP: A API usa verbos como GET (pegar), POST (criar), PUT (atualizar) e DELETE (deletar) para realizar ações nesses recursos.<br>
@@ -27,6 +53,7 @@ Controller:
 &nbsp;&nbsp;&nbsp;As APIs RESTful suportam essa troca de informações porque seguem padrões de comunicação<br>
 &nbsp;&nbsp;&nbsp;de software seguros, confiáveis e eficientes.<br>
     <br>
+<<<<<<< HEAD
 ***Como funciona:***<br>
 &nbsp;&nbsp;&nbsp;A função básica de uma API RESTful é a mesma de navegar na internet. O cliente entra em<br>
 &nbsp;&nbsp;&nbsp;contato com o servidor usando a API quando requer um recurso. Os desenvolvedores de API<br>
@@ -44,6 +71,13 @@ Controller:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A resposta também inclui informações solicitadas pelo cliente.<br>
     <br>
 &nbsp;&nbsp;&nbsp;Os detalhes de solicitação e resposta da API REST variam um pouco, dependendo de como os desenvolvedores da API projetam a API.
+=======
+**Como funciona:**<br>
+    Uma API REST é como uma ponte que conecta diferentes sistemas, permitindo<br>
+    que eles se comuniquem e troquem informações. Imagine como se fosse um menu<br>
+    de um restaurante: você escolhe o que quer (um recurso), e o restaurante (a API)<br>
+    prepara e entrega o pedido (a resposta).<br>
+>>>>>>> 3ad589919b3c2332c7fba43da93c80a043128d15
     <br>
 ***APIs REST para Python:***<br>
 &nbsp;&nbsp;&nbsp;1. Flask<br>
