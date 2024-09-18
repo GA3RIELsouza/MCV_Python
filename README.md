@@ -15,7 +15,7 @@ Em resumo, um "modelo" em Python pode significar um modelo de aprendizado de má
  ou um modelo de software, dependendo do contexto em que está sendo usado. 
  Se você tiver um contexto específico em mente, posso fornecer mais detalhes!
  
-<h2>como Funciona<h2>
+<h2>como Funciona</h2>
 Resumo dos Modelos
 Modelo em Aprendizado de Máquina:
 
