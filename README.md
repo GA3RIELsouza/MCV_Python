@@ -2,7 +2,7 @@
 
 <h1>MVC</h1>
 Model: Giovanni Gustavo
-**O que é: ** **Como funciona: **
+
 <h3>Definição:</h3> Um modelo de aprendizado de máquina é uma representação matemática 
 que captura padrões em um conjunto de dados. 
 Ele é treinado usando dados de entrada (features) e suas saídas correspondentes
