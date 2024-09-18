@@ -143,9 +143,9 @@ Redireciona o usuário de volta para a visão principal.
       3. O servidor recebe a solicitação e a processa internamente.<br>
       4. O servidor retorna uma resposta ao cliente. A resposta contém informações que indicam ao cliente se a solicitação foi bem-sucedida. A resposta também inclui informações solicitadas pelo cliente.<br>
     <br>
-   Os detalhes de solicitação e resposta da API REST variam um pouco, dependendo de como os desenvolvedores da API projetam a API.
+   Os detalhes de solicitação e resposta da API REST variam um pouco, dependendo de como os desenvolvedores da API projetam a API.<br>
    <br>
-***APIs REST para Python:***<br>
+***APIs REST para Python:***
    1. Flask<br>
    2. FastAPI<br>
    3. Django Rest Framework<br>
