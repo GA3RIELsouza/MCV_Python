@@ -1,8 +1,39 @@
 # Pesquisa sobre conceitos em Python
 
-MVC
+<h1>MVC</h1>
 Model: Giovanni Gustavo
 **O que é: ** **Como funciona: **
+<h3>Definição:</h3> Um modelo de aprendizado de máquina é uma representação matemática 
+que captura padrões em um conjunto de dados. 
+Ele é treinado usando dados de entrada (features) e suas saídas correspondentes
+(target) para fazer previsões ou classificações
+em novos dados.<br>
+
+Resumo
+resumo
+Em resumo, um "modelo" em Python pode significar um modelo de aprendizado de máquina, um modelo de dados em um framework web,
+ ou um modelo de software, dependendo do contexto em que está sendo usado. 
+ Se você tiver um contexto específico em mente, posso fornecer mais detalhes!
+ 
+<h2>como Funciona<h2>
+Resumo dos Modelos
+Modelo em Aprendizado de Máquina:
+
+- Coleta de Dados: Reúne dados relevantes.
+- Pré-processamento: Limpa e prepara os dados (ex: remoção de valores ausentes).
+- Divisão dos Dados: Separa em conjuntos de treinamento e teste.
+- Escolha do Algoritmo: Seleciona o método apropriado para o problema.
+- Treinamento: O modelo aprende padrões ajustando parâmetros com base nos dados de treinamento.
+- Avaliação: Mede o desempenho usando métricas (ex: acurácia, MSE).
+- Ajuste: Melhora o modelo através de ajustes e validação cruzada.
+- Implantação: O modelo é colocado em produção para fazer previsões em novos dados.
+- Modelo de Dados:
+
+ Define a estrutura e a organização dos dados em um banco de dados.
+Contém atributos que representam características dos dados e relacionamentos entre entidades.
+Modelo em Engenharia de Software:
+
+Representa a estrutura e interações de um sistema através de diagramas, como diagramas de classe e casos de uso.
 
 View: Anna
 **O que é: ** **Como funciona: **
