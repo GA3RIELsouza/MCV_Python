@@ -123,17 +123,17 @@ Redireciona o usuário de volta para a visão principal.
 
 # **REST:** (Gabriel)<br>
 ***O que é:***<br>
-   A API RESTful é uma interface que dois sistemas de computador usam para trocar<br>
+   A API REST é uma interface que dois sistemas de computador usam para trocar<br>
    informações de forma segura pela internet. A maioria das aplicações de negócios<br>
    precisa se comunicar com outras aplicações internas e de terceiros para executar<br>
    várias tarefas. Por exemplo, para gerar contracheques mensais, seu sistema interno<br>
    de contas precisa compartilhar dados com o sistema bancário de seu cliente a fim de<br>
    automatizar o faturamento e se comunicar com uma aplicação interna de planilha de horas.<br>
-   As APIs RESTful suportam essa troca de informações porque seguem padrões de comunicação<br>
+   As APIs REST suportam essa troca de informações porque seguem padrões de comunicação<br>
    de software seguros, confiáveis e eficientes.<br>
     <br>
     ***Como funciona:***<br>
-   A função básica de uma API RESTful é a mesma de navegar na internet. O cliente entra em<br>
+   A função básica de uma API REST é a mesma de navegar na internet. O cliente entra em<br>
    contato com o servidor usando a API quando requer um recurso. Os desenvolvedores de API<br>
    explicam como o cliente deve usar API REST na documentação da API da aplicação do servidor.<br>
    Estas são as etapas gerais para qualquer chamada de API REST:<br>
