@@ -96,7 +96,7 @@ Em Python, o termo "view" pode se referir a várias coisas, dependendo do contex
 O Controller (Controlador) é uma parte fundamental do padrão MVC (Model-View-Controller) em aplicações web e é responsável por gerenciar a lógica de interação entre o usuário,
 a visão e o modelo. Aqui está uma explicação detalhada sobre o Controller em Python, com ênfase em frameworks populares como Flask e Django.
 
-Funções do Controller
+<h2> Funções do Controller </h2>
 
 Receber Entradas do Usuário:
 O controlador captura as ações do usuário, como cliques em botões ou envios de formulários. Em aplicações web, isso geralmente ocorre por meio de requisições HTTP.
@@ -110,7 +110,7 @@ O controlador chama métodos do modelo para recuperar ou modificar dados. Isso p
 Selecionar a Visão:
 Depois de processar a entrada e interagir com o modelo, o controlador determina qual visão deve ser renderizada e retorna essa visão ao usuário.
 
-Exemplo em Flask:
+<h2> Exemplo em Flask: </h2>
 Rota /:
 O método index() é um controlador que renderiza a visão com a lista de tarefas. Ele utiliza a função render_template() para enviar os dados da lista de tarefas para o template HTML.
 
