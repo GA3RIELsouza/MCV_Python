@@ -61,7 +61,7 @@ Em Python, o termo "view" pode se referir a várias coisas, dependendo do contex
 - **Views em Web**: Funções que lidam com requisições e respostas.
 - **Views em NumPy**: Referências a arrays que permitem manipulação eficiente de dados.
 
-Controller:
+<h1> Controller : erica</h1>
 O Controller (Controlador) é uma parte fundamental do padrão MVC (Model-View-Controller) em aplicações web e é responsável por gerenciar a lógica de interação entre o usuário,
 a visão e o modelo. Aqui está uma explicação detalhada sobre o Controller em Python, com ênfase em frameworks populares como Flask e Django.
 
