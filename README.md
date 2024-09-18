@@ -34,7 +34,7 @@ Contém atributos que representam características dos dados e relacionamentos e
 Modelo em Engenharia de Software:
 
 Representa a estrutura e interações de um sistema através de diagramas, como diagramas de classe e casos de uso.
-
+<hr>
 View: Anna
 **O que é: ** **Como funciona: **
 Em Python, o termo "view" pode se referir a várias coisas, dependendo do contexto em que é usado.
