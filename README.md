@@ -17,12 +17,13 @@ Controller:
     dados de forma organizada e eficiente. Imagine como se fosse um menu<br>
     de um restaurante: você escolhe o que deseja (um recurso), e o restaurante<br>
     (a API) prepara e entrega o pedido (a resposta).<br>
+    <br>
 **Como funciona:**<br>
     Uma API REST é como uma ponte que conecta diferentes sistemas, permitindo<br>
     que eles se comuniquem e troquem informações. Imagine como se fosse um menu<br>
     de um restaurante: você escolhe o que quer (um recurso), e o restaurante (a API)<br>
     prepara e entrega o pedido (a resposta).<br>
-
+    <br>
 -   Recursos: Tudo o que pode ser manipulado pela API é um recurso. Por exemplo, em um e-commerce, os produtos são recursos.<br>
 -   Verbos HTTP: A API usa verbos como GET (pegar), POST (criar), PUT (atualizar) e DELETE (deletar) para realizar ações nesses recursos.<br>
 -   Endpoints: Cada recurso tem um endereço único (endpoint). Para buscar um produto específico, você faz uma requisição GET para o endpoint desse produto.<br>
