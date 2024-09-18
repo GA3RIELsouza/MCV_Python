@@ -1,9 +1,40 @@
 # Pesquisa sobre conceitos em Python
 
-MVC
+<h1>MVC</h1>
 Model: Giovanni Gustavo
-**O que é: ** **Como funciona: **
 
+<h3>Definição:</h3> Um modelo de aprendizado de máquina é uma representação matemática 
+que captura padrões em um conjunto de dados. 
+Ele é treinado usando dados de entrada (features) e suas saídas correspondentes
+(target) para fazer previsões ou classificações
+em novos dados.<br>
+
+Resumo
+resumo
+Em resumo, um "modelo" em Python pode significar um modelo de aprendizado de máquina, um modelo de dados em um framework web,
+ ou um modelo de software, dependendo do contexto em que está sendo usado. 
+ Se você tiver um contexto específico em mente, posso fornecer mais detalhes!
+ 
+<h2>como Funciona</h2>
+Resumo dos Modelos
+Modelo em Aprendizado de Máquina:
+
+- Coleta de Dados: Reúne dados relevantes.
+- Pré-processamento: Limpa e prepara os dados (ex: remoção de valores ausentes).
+- Divisão dos Dados: Separa em conjuntos de treinamento e teste.
+- Escolha do Algoritmo: Seleciona o método apropriado para o problema.
+- Treinamento: O modelo aprende padrões ajustando parâmetros com base nos dados de treinamento.
+- Avaliação: Mede o desempenho usando métricas (ex: acurácia, MSE).
+- Ajuste: Melhora o modelo através de ajustes e validação cruzada.
+- Implantação: O modelo é colocado em produção para fazer previsões em novos dados.
+- Modelo de Dados:
+
+ Define a estrutura e a organização dos dados em um banco de dados.
+Contém atributos que representam características dos dados e relacionamentos entre entidades.
+Modelo em Engenharia de Software:
+
+Representa a estrutura e interações de um sistema através de diagramas, como diagramas de classe e casos de uso.
+<hr>
 View: Anna
 **O que é: ** **Como funciona: **
 Em Python, o termo "view" pode se referir a várias coisas, dependendo do contexto em que é usado.
@@ -90,24 +121,31 @@ Cria uma nova instância do modelo Task.
 Adiciona a tarefa à lista de tarefas.
 Redireciona o usuário de volta para a visão principal.
 
--   Recursos: Tudo o que pode ser manipulado pela API é um recurso. Por exemplo, em um e-commerce, os produtos são recursos.<br>
--   Verbos HTTP: A API usa verbos como GET (pegar), POST (criar), PUT (atualizar) e DELETE (deletar) para realizar ações nesses recursos.<br>
--   Endpoints: Cada recurso tem um endereço único (endpoint). Para buscar um produto específico, você faz uma requisição GET para o endpoint desse produto.<br>
--   Formato de dados: A informação é trocada em um formato padrão, como JSON ou XML.<br>
--   Stateless: Cada requisição é independente, a API não "lembra" o que aconteceu antes.<br>
-
 # **REST:** (Gabriel)<br>
 ***O que é:***<br>
-   A API RESTful é uma interface que dois sistemas de computador usam para trocar<br>
+   A API REST é uma interface que dois sistemas de computador usam para trocar<br>
    informações de forma segura pela internet. A maioria das aplicações de negócios<br>
    precisa se comunicar com outras aplicações internas e de terceiros para executar<br>
    várias tarefas. Por exemplo, para gerar contracheques mensais, seu sistema interno<br>
    de contas precisa compartilhar dados com o sistema bancário de seu cliente a fim de<br>
    automatizar o faturamento e se comunicar com uma aplicação interna de planilha de horas.<br>
-   As APIs RESTful suportam essa troca de informações porque seguem padrões de comunicação<br>
+   As APIs REST suportam essa troca de informações porque seguem padrões de comunicação<br>
    de software seguros, confiáveis e eficientes.<br>
     <br>
-***APIs REST para Python:***<br>
+    ***Como funciona:***<br>
+   A função básica de uma API REST é a mesma de navegar na internet. O cliente entra em<br>
+   contato com o servidor usando a API quando requer um recurso. Os desenvolvedores de API<br>
+   explicam como o cliente deve usar API REST na documentação da API da aplicação do servidor.<br>
+   Estas são as etapas gerais para qualquer chamada de API REST:<br>
+    <br>
+      1. O cliente envia uma solicitação ao servidor. O cliente segue a documentação da API para formatar a solicitação de modo que o servidor entenda.<br>
+      2. O servidor autentica o cliente e confirma que o cliente tem o direito de fazer essa solicitação.<br>
+      3. O servidor recebe a solicitação e a processa internamente.<br>
+      4. O servidor retorna uma resposta ao cliente. A resposta contém informações que indicam ao cliente se a solicitação foi bem-sucedida. A resposta também inclui informações solicitadas pelo cliente.<br>
+    <br>
+   Os detalhes de solicitação e resposta da API REST variam um pouco, dependendo de como os desenvolvedores da API projetam a API.<br>
+   <br>
+***APIs REST para Python:***
    1. Flask<br>
    2. FastAPI<br>
    3. Django Rest Framework<br>
@@ -117,5 +155,11 @@ Redireciona o usuário de volta para a visão principal.
    7. Pyramid<br>
    8. Sanic
 
-CORS: Thiago
-**O que é: ** **Como funciona: **
+<h1>CORS: Thiago </h1><p>
+
+<h2>Oque é o Cors:</h2> <p> CORS (Cross-Origin Resource Sharing) é um mecanismo que permite que recursos de uma origem (domínio) sejam acessados por outra origem. Por padrão, navegadores bloqueiam essas requisições por motivos de segurança.  <br>
+
+<h2>Com funciona o CORS:</h2> Quando uma página tenta acessar um recurso em outra origem, o navegador pode enviar uma requisição "preflight" usando o método OPTIONS. Essa requisição verifica se a origem é permitida pelo servidor. O servidor, então, responde com cabeçalhos CORS, como Access-Control-Allow-Origin, que especificam quais origens podem acessar os recursos.
+
+Se a origem for permitida, o navegador prossegue com a requisição real. Se não, a requisição é bloqueada. Em resumo, o CORS controla o acesso a recursos entre diferentes origens, git equilibrando segurança e funcionalidade.</p>
+
