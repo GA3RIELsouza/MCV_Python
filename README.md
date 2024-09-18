@@ -37,6 +37,60 @@ Representa a estrutura e interações de um sistema através de diagramas, como 
 
 View: Anna
 **O que é: ** **Como funciona: **
+Em Python, o termo "view" pode se referir a várias coisas, dependendo do contexto em que é usado.
+
+1. **Views em Frameworks Web**: Em frameworks como Django ou Flask, uma "view" é uma função ou classe que processa uma requisição HTTP e retorna uma resposta. Ela define a lógica de apresentação e manipulação de dados para uma determinada rota.
+2. **View em Bases de Dados**: Em bancos de dados SQL, uma "view" é uma tabela virtual que resulta de uma consulta. Você pode usá-la para simplificar consultas complexas, encapsular lógica e melhorar a segurança.
+3. **View em Estruturas de Dados**: Em bibliotecas como NumPy, uma "view" é uma forma de acessar os dados de um array sem criar uma cópia. Isso permite manipulações eficientes da memória.
+
+### Views em Python
+
+1. **Views em Frameworks Web (Django e Flask)**:
+   - **Django**:
+     - As views são definidas em um arquivo `views.py`.
+     - Elas processam requisições HTTP e retornam respostas.
+     - Exemplo básico:
+
+       ```python
+       from django.http import HttpResponse
+
+       def minha_view(request):
+           return HttpResponse("Olá, mundo!")
+       ```
+
+     - As views podem acessar modelos (models) para manipular dados do banco de dados e renderizar templates.
+
+   - **Flask**:
+     - As views são funções decoradas com `@app.route()`.
+     - Exemplo:
+
+       ```python
+       from flask import Flask
+
+       app = Flask(__name__)
+
+       @app.route('/')
+       def minha_view():
+           return "Olá, mundo!"
+       ```
+
+2. **Views em Estruturas de Dados (NumPy)**:
+   - Em NumPy, uma "view" é uma maneira de acessar e modificar dados de um array sem criar uma cópia.
+   - Exemplo:
+
+     ```python
+     import numpy as np
+
+     array_original = np.array([1, 2, 3, 4])
+     view_array = array_original[1:3]  # Cria uma view
+
+     view_array[0] = 99  # Modifica o valor na view
+     print(array_original)  # Saída: [ 1 99 3 4]
+     ```
+	 
+### Resumo
+- **Views em Web**: Funções que lidam com requisições e respostas.
+- **Views em NumPy**: Referências a arrays que permitem manipulação eficiente de dados.
 
 Controller:
 O Controller (Controlador) é uma parte fundamental do padrão MVC (Model-View-Controller) em aplicações web e é responsável por gerenciar a lógica de interação entre o usuário,
