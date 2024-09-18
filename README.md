@@ -36,13 +36,13 @@ Cria uma nova instância do modelo Task.
 Adiciona a tarefa à lista de tarefas.
 Redireciona o usuário de volta para a visão principal.
 
-**REST:** (Gabriel)<br>
-**O que é:**<br>
-    Uma API REST (Representational State Transfer) é como uma interface<br>
-    que permite que diferentes sistemas se comuniquem entre si, trocando<br>
-    dados de forma organizada e eficiente. Imagine como se fosse um menu<br>
-    de um restaurante: você escolhe o que deseja (um recurso), e o restaurante<br>
-    (a API) prepara e entrega o pedido (a resposta).<br>
+# **REST:** (Gabriel)<br>
+***O que é:***<br>
+&nbsp;&nbsp;&nbsp;Uma API REST (Representational State Transfer) é como uma interface<br>
+&nbsp;&nbsp;&nbsp;que permite que diferentes sistemas se comuniquem entre si, trocando<br>
+&nbsp;&nbsp;&nbsp;dados de forma organizada e eficiente. Imagine como se fosse um menu<br>
+&nbsp;&nbsp;&nbsp;de um restaurante: você escolhe o que deseja (um recurso), e o restaurante<br>
+&nbsp;&nbsp;&nbsp;(a API) prepara e entrega o pedido (a resposta).<br>
     <br>
 **Como funciona:**<br>
     Uma API REST é como uma ponte que conecta diferentes sistemas, permitindo<br>
