@@ -35,8 +35,8 @@ Modelo em Engenharia de Software:
 
 Representa a estrutura e interações de um sistema através de diagramas, como diagramas de classe e casos de uso.
 <hr>
-View: Anna
-**O que é: ** **Como funciona: **
+<h1>View: Anna</h1>
+
 Em Python, o termo "view" pode se referir a várias coisas, dependendo do contexto em que é usado.
 
 1. **Views em Frameworks Web**: Em frameworks como Django ou Flask, uma "view" é uma função ou classe que processa uma requisição HTTP e retorna uma resposta. Ela define a lógica de apresentação e manipulação de dados para uma determinada rota.
