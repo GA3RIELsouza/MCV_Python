@@ -1,7 +1,7 @@
 # Pesquisa sobre conceitos em Python
 
 <h1>MVC</h1>
-Model: Giovanni Gustavo
+<h1>View: Giovanni Gustavo</h1>
 
 <h3>Definição:</h3> Um modelo de aprendizado de máquina é uma representação matemática 
 que captura padrões em um conjunto de dados. 
